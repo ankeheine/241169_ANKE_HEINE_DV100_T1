@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+
+@font-face{
+    font-family: 'Porter Sans Block';
+    src: url(../assets/Fonts/porter_sans_block/porter-sans-inline-block-webfont.woff) format("woff");
+}
+
+.localFont2 p{
+    font-family: 'Porter Sans Block';
+    font-size: 20px;
+    color:crimson;
+    text-align: bottom;
+}
+
+/*.flexContainer{
+    display: flex;*/
+
+.flexContainer p{
+    display: flex;
+    font-size: 48px;
+    text-align: bottom, left;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.topNav {
+    overflow: hidden;
+    background-color: peru;
+}
+
+.topNav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 650;
+}
+
+.topNavRight {
+    float:inherit;
+}
+
+.topNav a:hover {
+    background-color: rgb(243, 241, 237);
+    color: black;
+    border-radius: 5px;
+}
+
+.topNav a.active {
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border-radius: 5px;
+}
+
+.backgroundImage1{
+    background-image: url(../assets/Images/homePageHeader.png);
+    background-size: cover;
+    height: 880px;
+}
+
+p{
+    text-align: bottom;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 650px;
+}
