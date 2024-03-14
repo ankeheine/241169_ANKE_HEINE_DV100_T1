@@ -20,7 +20,6 @@ body{
 .flexContainer p{
     display: flex;
     font-size: 48px;
-    text-align: bottom, left;
 }
 
 p{
@@ -28,7 +27,7 @@ p{
     font-weight: 400;
 }
 
-.topNav {
+/*.topNav {
     overflow: hidden;
     background-color: peru;
 }
@@ -58,7 +57,7 @@ p{
     background-color: lightgoldenrodyellow;
     color: black;
     border-radius: 5px;
-}
+}*/
 
 .backgroundImage1{
     background-image: url(../assets/Images/homePageHeader.png);
@@ -66,9 +65,16 @@ p{
     height: 880px;
 }
 
-p{
+.localFont2 p{
     text-align: bottom;
     text-align: left;
     padding-left: 50px;
     padding-top: 650px;
+}
+
+.subheading p{
+    font-family: 'Poppins', bold;
+    font-weight: 600;
+    padding-left: 50px;
+    font-size: 30px;
 }
