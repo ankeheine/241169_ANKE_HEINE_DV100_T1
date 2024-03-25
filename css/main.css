@@ -26,7 +26,7 @@ p{
 .subheading p{
     font-family: 'Poppins', bold;
     font-size: 30px;
-    text-align: bottom;
+    /* text-align: bottom; */
 }
 
 /*.topNav {
@@ -62,12 +62,8 @@ p{
     border-radius: 5px;
 }*/
 
-
-.backgroundImage{
-    background-color: rgb(95, 123, 105);
-    background-size: cover;
-    padding: 650px;
-}
+/* .backgroundImage img{
+} */
 
 /*.backgroundImage1{
     background-image: url(../assets/Images/homePageHeader.png);
@@ -77,18 +73,16 @@ p{
 
 
 .localFont2 p{
-    text-align: bottom;
-    text-align: left;
     padding-left: 60px;
-    padding-top: 600px;
+    padding-top: 620px;
 }
 
 .subheading p{
+  display: flex;
     font-family: 'Poppins', bold;
     font-weight: 600;
-    padding-left: 10px;
+    padding-left: 60px;
     font-size: 30px;
-    padding-bottom: 10px;
 }
 
 .flexContainer{
@@ -102,66 +96,92 @@ p{
     /*min-height: 380px;*/
 
     /* Center and scale the image nicely */
-    /*background-position: center;
-    background-repeat: no-repeat;*/
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    /* height: 100%; */
+    width: 100%;
 
     /* Needed to position the navbar */
-    /*position: relative;*/
+    position: relative;
   }
   
   /* Position the navbar container inside the image */
   .topNav {
     position: absolute;
-    margin: 20px 100px;
-    width: 1000px;
+    margin-top: 50px;
+    width: 1650px;
     align-items: center;
-    height: 65px;
+    /* height: 65px; */
+    z-index: 9999;
   }
   
   /* The navbar */
   .topNav {
     overflow: hidden;
-    background-color: #ffffff;
-    opacity: 0.75;
-    border-radius: 20px;
+    background-color: #ffffffcb;
+    border-radius: 30px;
+    margin: 20px 70px;
   }
   
   /* Navbar links */
   .topNavRight a {
-    float: center;
+    display: inline-block;
+    /* align-items: center; */
     color: #333;
-    text-align: center;
-    padding: 14px 16px;
+    /* text-align: center; */
+    padding: 30px 16px;
     text-decoration: none;
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
   }
+
+  /* .topNavRight{
+    position: relative;
+    align-items: center;
+    margin: auto;
+  } */
   
   .topNav a:hover {
-    background-color: #ddd;
-    color: black;
+    color: crimson;
   }
 
   .topNavRight a.active{
     color: crimson;
     float: center;
+    font-family: 'Poppins', bold;
+    font-weight: 600;
   }
 
   .topNav img{
     float: left;
     width: 266px;
     height: 48px;
-    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    /* padding-top: 5px; */
   }
 
   .topNav input[type=text] {
     float: right;
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
+    height: 48px;
+    width: 266px;
+    /* padding: 10px; */
     border: none;
+    margin-top: 20px;
+    margin-right: 50px;
+    border-radius: 10px;
+    font-family: 'Poppins', regular;
     font-size: 17px;
+    font-weight: 500;
+    /* border-color: #ffffff; */
+    background-color: #ffffff;
+    justify-content: center;
+    display: flex;
   }
   
   @media screen and (max-width: 600px) {
@@ -171,10 +191,174 @@ p{
       text-align: left;
       width: 100%;
       margin: 0;
-      padding: 14px;
+      padding: 14px 2px;
     }
     
-    .topNav input[type=text] {
-      border: 1px solid #ccc;  
+    input[type=text] {
+      border: 1px solid #ffffff;
+      color: #000000;
     }
   }
+
+  .searchBar{
+    color: #000000;
+  }
+
+  .nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .nav li{
+    display: inline;
+  }
+
+  .nav a{
+    display: inline-block;
+  }
+
+  /* input[placeholder=Search]{
+    color: #000000;
+  } */
+
+  .searchBar{
+    font-family: 'Poppins';
+    align-items: left;
+  }
+
+  .backgroundImage{
+    background-color: #5b3d67;
+    align-items: center;
+    /* padding: 650px; */
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+  .flexContainer1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .smallHeading{
+    font-family: 'Poppins', medium;
+    font-size: 18px;
+    color: #71c17b;
+    font-weight: 500;
+  }
+
+  .bigHeading p{
+    font-family: 'Poppins', bold;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fceff4;
+  }
+
+  .flexItem1{
+    padding: 40px;
+    flex: 50%;
+  }
+
+  .flexItem1 p{
+    padding-right: 40px;
+  }
+
+  .flexItem1 img{
+    flex: 60%;
+    width: 609px;
+    height: 649px;
+  }
+
+.graph p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fceff4;
+}
+
+.backgroundImage2{
+  background-color: #fceff4;
+  align-items: center;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+
+.flexItem1 img{
+  flex: 60%;
+  width: 609px;
+  height: 649px;
+}
+
+.bigHeading1{
+  font-family: 'Poppins', bold;
+  font-size: 48px;
+  color: #5b3d67;
+  font-weight: 700;
+}
+
+.graph1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #5b3d67;
+  font-weight: 400;
+}
+
+.flexItem2{
+  padding: 40px;
+  flex: 50%;
+}
+
+.flexItem2 p{
+  padding-left: 15px;
+}
+
+.flexItem2 img{
+  flex: 40%;
+  width: 609px;
+  height: 477px;
+  padding-left: 150px;
+}
+
+.flexItem3 img{
+  width: 278px;
+  display: block;
+  padding-left: 20px;
+}
+
+.flexItem3{
+  padding: 25px;
+  flex: 30%;
+}
+
+.paragraphHead p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: #fceff4;
+  font-weight: 500;
+  text-align: center;
+}
+
+.paragraph{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #fceff4;
+  font-weight: 400;
+  text-align: center;
+}
+
+.bigHeading2 p{
+  font-family: 'Poppins',bold;
+  font-size: 48px;
+  color: #fceff4;
+  font-weight: 700;
+  text-align: center;
+}
+
+.smallHeading1 p{
+  font-family: 'Poppins',sans-serif;
+  font-size: 25px;
+  color: #fceff4;
+  font-weight: 400;
+  text-align: center;
+}
