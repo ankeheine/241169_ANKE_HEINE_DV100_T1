@@ -109,7 +109,7 @@ p{
   /* Position the navbar container inside the image */
   .topNav {
     position: absolute;
-    margin-top: 50px;
+    margin-top: 3em;
     width: 1650px;
     align-items: center;
     /* height: 65px; */
@@ -121,7 +121,7 @@ p{
     overflow: hidden;
     background-color: #ffffffcb;
     border-radius: 30px;
-    margin: 20px 70px;
+    margin: 35px 70px;
   }
   
   /* Navbar links */
@@ -241,6 +241,7 @@ p{
     flex-direction: row;
     align-items: center;
   }
+
   .smallHeading{
     font-family: 'Poppins', medium;
     font-size: 18px;
@@ -361,4 +362,54 @@ p{
   color: #fceff4;
   font-weight: 400;
   text-align: center;
+}
+
+.backgroundImage3{
+  background-image: url(../assets/Images/headerbackBack.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 430px;
+}
+
+.contactHead p{
+  font-family: 'Porter Sans Block';
+  font-size: 48px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 220px;
+}
+
+.Heading1{
+  font-family: 'Poppins', bold;
+  font-size: 48px;
+  font-weight: 600;
+  color: #5b3d67;
+}
+
+.flexItem4 img{
+  flex: 40%;
+  width: 597px;
+  height: 598px;
+  padding-left: 150px;
+}
+
+
+
+.flexItem6 img{
+  width: 97px;
+  display: block;
+  padding-left: 10px;
+}
+
+.flexItem6{
+  padding: 15px;
+  flex: 30%;
+}
+
+.flexContainer1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
