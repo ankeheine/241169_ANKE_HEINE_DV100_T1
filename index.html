@@ -22,43 +22,52 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <nav>
-        <div class="backgroundImage1">
+    
+    <header class="backgroundImage1">
+        <nav>
             <div class="topNav">
                 <a href="/index.html">
                     <img src="assets/Images/logo.png" width="266px">
                 </a>
 
-             <div class="topNavRight">
-                <input type="text" placeholder="Search" class="searchBar">
-                <ul class="nav">
-                 <li><a class="active" href="index.html">Home</a></li>
-                 <li><a href="pages/contact.html">Contact</a></li>
-                 <li><a href="pages/flights.html">Flights</a></li>
-                </ul>
+                    <div class="topNavRight">
+                        <div class="searchContainer">
+                            <img class="searchIcon" src="assets/Images/search.svg">
+                                <input type="text" placeholder="Search" class="searchBar">
+                                <img class="searchIcon1" src="assets/Images/basket.svg">
+                            <div class="indiContainer">
+                                <div class="indiIcon">2</div>
+                            </div>
+                        </div>
+                        <ul class="nav">
+                            <li><a class="active" href="index.html">Home</a></li>
+                            <li><a href="pages/contact.html">Contact</a></li>
+                            <li><a href="pages/flights.html">Flights</a></li>
+                        </ul>
+                    </div>
 
-             </div>
+            <!-- <div class="searchcontainer">
+                <div class="searchicon searchimage"> </div>
+                <input type="text" placeholder="Search" text-color="#000000" class="searchBar">
+                <div class="searchicon basketimage ">  </div>
+                <div class="indicationiconContainer"> 
+                    <div class="indicationicon">2</div> </div>
+                </div>-->
             </div>
-        </div>
-    </nav>
+        </nav>
+        
+        <section>
+            <div class="backgroundImage1">
+                        <p class="localFont2">RED PLANET <br>
+                        VENTURES</p>
 
-    <!--<header>-->
-    <section>
-        <div class="backgroundImage1">
-            <div class="flexContainer">
-                <section class="localFont2">
-                    <p>RED PLANET <br>
-                    VENTURES</p><br>
-                </section>
-                
+                    <p class="subheading">EXPLORE THE SOLAR SYSTEM</p>
             </div>
-            <section class="subheading">
-                <p>EXPLORE THE SOLAR SYSTEM</p>
-            </section>
-        </div>
-    </section>
+        </section>
+    </header>
 
-    <!--</header>-->
+
+   
     
  
 <section class="backgroundImage"> 
@@ -68,18 +77,16 @@
         </div>
 
     <div class="flexItem1">
-        <section class="smallHeading">
-        <p>FEATURED TRIP</p>
-    </section>
-    <section class="bigHeading">
-        <p>THE CLASSIC MARS EXPERIENCE</p>
-    </section>
-    <section class="graph">
-        <p>Embark on a Mars vacation: red deserts, ancient relics, and towering canyons await. Enjoy low-gravity hiking, rover trips to Olympus Mons, and stargazing under Phobos and Deimos. Unforgettable adventures beckon on the rust-colored landscapes of the Red Planet.</p>
-    </section>
+        <p class="smallHeading">FEATURED TRIP</p>
+        <p class="bigHeading">THE CLASSIC MARS EXPERIENCE</p>
+        <p class="graph">Embark on a Mars vacation: red deserts, ancient relics, and towering canyons await. Enjoy low-gravity hiking, rover trips to Olympus Mons, and stargazing under Phobos and Deimos. Unforgettable adventures beckon on the rust-colored landscapes of the Red Planet.</p>
+            <div class="bookB">
+                <button name="Book" type="submit" id="bookButton">Book Now</button>
+            </div>
         </div>
     </div>
 </section>  
+
 
     <section class="backgroundImage2">
         <div class="flexContainer1">
@@ -97,12 +104,8 @@
     </section>
 
         <section class="backgroundImage">
-            <section class="smallHeading1">
-                <p>UPCOMING TRIP SNEAK PEAK</p>
-            </section>
-            <section class="bigHeading2">
-                <p>Take a look at some of our upcoming trips</p>
-            </section>
+                <p class="smallHeading1">UPCOMING TRIP SNEAK PEAK</p>
+                <p class="bigHeading2">Take A Look At Some Of Our<br> Upcoming Trips</p>
             <div class="flexContainer1">
                 <div class="flexItem3"><img src="assets/Images/upcomingTrip1.png">
                 <section class="paragraphHead">
@@ -137,10 +140,64 @@
                         </p>
                 </section></div>
             </div>
+                <div class="buttony">
+                    <button name="Book" type="submit" id="bookButton">Book a Trip Now</button>
+                </div>
         </section>
 
     <footer>
-        <p>Copyright 2024 - HTML Template</p>
+        <section class="backgroundImage2">
+            <div class="flex-container">
+   
+                <div class="item1">
+                    <img src="assets/Images/logo.png">
+                    <br>
+                    <p class="graph">Offering unforgettable trips to<br> explore planets in our solar<br> system.</p>
+                </div>
+                <div class="item2">
+                    <p class="footergraph">Company</p> <br>
+                        <p class="graph">
+                         <a href="index.html">  Home </a> 
+                        </p>
+                            <br>
+                        <p class="graph">
+                         <a href="pages/flights.html">  Flights </a> 
+                        </p>
+                            <br>
+                        <p class="graph">
+                          <a href="pages/contact.html"> Contact Us</a> 
+                        </p>
+                </div>
+                <div class="item3">
+                    <p class="footergraph">Social Media Links</p>
+                        <br>
+                    <div class="item3-1">
+                        <div class="footerSocial">
+                            <img src="assets/Images/smFacebook.png">
+                        </div>
+                        <div class="footerSocial">
+                            <img src="assets/Images/smInstagram.png">
+                        </div>
+                        <div class="footerSocial">
+                            <img src="assets/Images/smTicktock.png">
+                        </div>
+                        <div class="footerSocial">
+                            <img src="assets/Images/smX.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <hr>
+                <div class="footer">
+                    <div class="footer1">
+                        <p class="footerT">All Rights Reserved @ Open Window 2024</p>
+                    </div>
+                    <div class="footer2">
+                        <p class="footerT">Terms & Conditions</p>
+                        <p class="footerT">Privacy Policy</p>
+                    </div>
+                </div>
+        </section>
     </footer>
 
 </body>
