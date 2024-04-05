@@ -47,8 +47,6 @@ p{
 
 .backgroundImage1 {
     background-image: url(../assets/Images/homePageHeader.png);
-  
-    /*min-height: 380px;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,8 +59,6 @@ p{
     max-width: 100%;
     flex-direction: column;
     align-content: center;
-
-    /* position: absolute; */
   }
   
 
@@ -71,7 +67,6 @@ p{
     margin-top: 3em;
     width: 1610px;
     align-items: center;
-    /* height: 65px; */
     z-index: 9999;
   }
   
@@ -302,10 +297,6 @@ p{
     flex: 50%;
   }
 
-  /* .flexItem1 p{
-    padding-right: 20px;
-  } */
-
   .flexItem1 img{
     flex: 30%;
     width: 609px;
@@ -472,19 +463,7 @@ p{
 
 .flexRight{
   display: flex;
-  /* justify-content: flex-end; */
-  /* align-items: right; */
-  width: 730px;
-  padding-left: 60px;
 }
-
-/* .formContainer{
-  width: 50%;
-  max-width: 500px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-}  */
 
 #contact{
   background-image: url(../assets/Images/formBack.png);
@@ -498,7 +477,7 @@ p{
 }
 
 #contact p{
-  color: #bbd2d2;
+  color:#fceff4;
   display: block;
   font-family: 'Poppins', bold;
   font-size: 48px;
@@ -513,7 +492,7 @@ p{
 
 fieldset{
   border: medium none !important;
-  margin: 0 0 10px;
+  /* margin: 0 0 10px; */
   min-width: 100%;
   width: 100%;
   padding: 0;
@@ -569,8 +548,6 @@ label{
   font-size: 18px;
   color: #fceff4;
   font-weight: 500;
-  /* padding-top: 20px; */
-  /* padding-bottom: 10px; */
 }
 
 .flexItem5 p{
@@ -580,7 +557,6 @@ label{
 .socials{
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
   width: 65%;
 }
 
@@ -605,12 +581,6 @@ iframe{
   gap: 5px;
 
 }
-
-/* .flex-container > div{
-  background: #ffecb3;
-  border: 3px solid #ffcc80;
-  padding: 8px;
-} */
 
 .item1 img{
   width: 266px;
@@ -773,4 +743,8 @@ button{
 
 .bookB{
   margin-left: -83px;
+}
+
+.footerHr{
+  padding-top: 25px;
 }
