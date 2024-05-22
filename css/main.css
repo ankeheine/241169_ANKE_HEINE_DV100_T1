@@ -22,12 +22,13 @@ p{
 .subheading{
     font-family: 'Poppins', bold;
     font-size: 30px;
+    margin: 0;
     /* text-align: bottom; */
 }
 
 .localFont2{
-    padding-left: 60px;
-    padding-top: 650px;
+    padding-left: 7vh;
+    padding-top: 80vh;
     margin: 0;
 }
 
@@ -35,10 +36,11 @@ p{
   display: flex;
     font-family: 'Poppins', bold;
     font-weight: 600;
-    padding-left: 60px;
+    padding-left: 7vh;
     font-size: 30px;
     margin: 0;
     color: #5b3d67;
+    padding-bottom: 11vh;
 }
 
 .flexContainer{
@@ -258,7 +260,7 @@ p{
     align-items: center;
     /* padding: 650px; */
     background-repeat: no-repeat;
-    padding: 100px;
+    padding: 10vh;
 }
 
   .flexContainer1{
@@ -290,10 +292,11 @@ p{
     font-weight: 600;
     color: #fceff4;
     margin: 0;
+    padding-right: 5vh;
   }
 
   .flexItem1{
-    padding: 40px;
+    padding: 2vh;
     flex: 50%;
   }
 
@@ -309,13 +312,14 @@ p{
   font-weight: 400;
   color: #fceff4;
   margin: 0;
+  padding-right: 15vh;
 }
 
 .backgroundImage2{
   background-color: #fceff4;
   align-items: center;
   background-repeat: no-repeat;
-  padding: 100px;
+  padding: 10vh;
 }
 
 .flexItem1 img{
@@ -341,29 +345,29 @@ p{
 }
 
 .flexItem2{
-  padding: 40px;
+  padding: 2vh;
   flex: 50%;
 }
 
 .flexItem2 p{
-  padding-left: 15px;
+  padding-left: 1vh;
 }
 
 .flexItem2 img{
   flex: 40%;
   width: 609px;
   height: 477px;
-  padding-left: 150px;
+  padding-left: 8vh;
 }
 
 .flexItem3 img{
   width: 278px;
   display: block;
-  padding-left: 20px;
+  padding-left: 5vh;
 }
 
 .flexItem3{
-  padding: 25px;
+  padding: 1vh;
   flex: 30%;
 }
 
@@ -577,8 +581,8 @@ iframe{
 .flex-container {
   display: flex;
   justify-content: space-between;
-  height: 100%;
-  gap: 5px;
+  height: 20vh;
+  /* gap: 8vh; */
 
 }
 
@@ -597,7 +601,7 @@ iframe{
   display: flex;
   flex-direction: row;
   width: 77px;
-  padding: 5px;
+  padding: 1vh;
 }
 
 .item3-1{
@@ -619,6 +623,7 @@ iframe{
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 400;
+  display: flex;
 }
 
 .backgroundImage4{
