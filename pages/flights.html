@@ -10,7 +10,8 @@
 
     <title>Red Planet Ventures</title>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
@@ -28,13 +29,15 @@
                         <div class="searchContainer">
                             <img class="searchIcon" src="../assets/Images/search.svg">
                                 <input type="text" placeholder="Search" class="searchBar">
-                                <img class="searchIcon1" src="../assets/Images/basket.svg">
+                                <button class="baskety" id="myBtn"><img class="searchIcon1" id="myBtn" src="../assets/Images/basket.svg"> </button>
+                                <!-- <a href="../pages/cartmodal.html" class="baskety" id="bask-modal" onclick="display()"><img class="searchIcon1" src="../assets/Images/basket.svg"></a> -->
                             <div class="indiContainer">
                                 <div class="indiIcon">2</div>
                             </div>
                         </div>
                         <ul class="nav">
                             <li><a href="../index.html">Home</a></li>
+                            <li><a href="../pages/about.html">About</a></li>
                             <li><a href="../pages/contact.html">Contact</a></li>
                             <li><a class="active" href="pages/flights.html">Flights</a></li>
                         </ul>
@@ -63,12 +66,14 @@
                 <div class="flexFlight1">
                     <p class="Heading1">The Classic Mars Experience</p>
                     <div class="info">
-                    <p>R25,000.00            <s>R50,000.00</s></p>
-                </div>
+                        <p>R25,000.00            <s>R50,000.00</s></p>
+                    </div>
                     <p class="graph1">
                         Embark on a Jupiter voyage aboard the "Jupiter Odyssey." Witness its majestic storms and swirling atmosphere. Dive into metallic hydrogen oceans. Explore its moons, each a world unto itself. Engage in gravity surfing, comet chasing, and space excursions. Experience cosmic wonder in luxury, blending exploration with adventure.
                     </p>
+                    
                     <button name="Book" type="submit" id="bookButton">Book Now</button>
+                
                     <hr class="purple">
                     <div class="info">
                         <p>SKU : SS001</p>
@@ -118,7 +123,7 @@
                     <p class="graph1">
                         Embark on a Jupiter voyage aboard the "Jupiter Odyssey." Witness its majestic storms and swirling atmosphere. Dive into metallic hydrogen oceans. Explore its moons, each a world unto itself. Engage in gravity surfing, comet chasing, and space excursions. Experience cosmic wonder in luxury, blending exploration with adventure.
                     </p>
-                    <button name="Book" type="submit" id="bookButton">Book Now</button>
+                    <button name="Book" type="submit" class="bookB">Book Now</button>
                     <hr class="purple">
                     <div class="info">
                         <p>SKU : SS606</p>
@@ -205,6 +210,21 @@
         </div>
     </section>
 
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Your Shopping Cart</h2>
+            <div id="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <button id="checkout-button">Proceed to Checkout</button>
+        </div>
+    </div>
+
+
+
     <footer>
         <section class="backgroundImage2">
             <div class="flex-container">
@@ -212,20 +232,24 @@
                 <div class="item1">
                     <img src="../assets/Images/logo.png">
                     <br>
-                    <p class="graph">Offering unforgettable trips to<br> explore planets in our solar<br> system.</p>
+                    <p class="slogan">Offering unforgettable trips to<br> explore planets in our solar<br> system.</p>
                 </div>
                 <div class="item2">
                     <p class="footergraph">Company</p> <br>
                     <p class="graph">
-                        <a href="../index.html">Home</a>
+                        <a href="../index.html">  Home </a> 
                        </p>
-                           <br>
+                       <br>
                        <p class="graph">
-                         <a href="../pages/flights.html">Flights</a>
-                       </p>
-                           <br>
+                           <a href="../pages/about.html">  About Us </a> 
+                          </p>
+                          <br>
+                          <p class="graph">
+                            <a href="../pages/contact.html"> Contact Us</a> 
+                          </p>
+                          <br>
                        <p class="graph">
-                         <a href="../pages/contact.html">Contact Us</a> 
+                        <a href="pages/flights.html">  Flights </a> 
                        </p>
                 </div>
                 <div class="item3">
@@ -255,6 +279,7 @@
                     </div>
                 </div>
             </div>
+            <br>
                 <div class="footerHr">
                     <hr>
                 </div>
@@ -262,10 +287,14 @@
                     <div class="footer1">
                         <p class="footerT">All Rights Reserved @ Open Window 2024</p>
                     </div>
+                    <div class="footerEx">
                     <div class="footer2">
                         <p class="footerT">Terms & Conditions</p>
+                    </div>
+                    <div class="footer2">
                         <p class="footerT">Privacy Policy</p>
                     </div>
+                </div>
                 </div>
         </section>
     </footer>

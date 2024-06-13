@@ -28,13 +28,14 @@
                         <div class="searchContainer">
                             <img class="searchIcon" src="../assets/Images/search.svg">
                                 <input type="text" placeholder="Search" class="searchBar">
-                                <img class="searchIcon1" src="../assets/Images/basket.svg">
+                                <a href="../pages/cartmodal.html"><img class="searchIcon1" src="../assets/Images/basket.svg"></a>
                             <div class="indiContainer">
                                 <div class="indiIcon">2</div>
                             </div>
                         </div>
                         <ul class="nav">
                             <li><a href="../index.html">Home</a></li>
+                            <li><a href="../pages/about.html">About</a></li>
                             <li><a class="active" href="pages/contact.html">Contact</a></li>
                             <li><a href="../pages/flights.html">Flights</a></li>
                         </ul>
@@ -77,16 +78,24 @@
                     <p class="Heading1">SOCIAL MEDIA PAGES</p>
                 <div class="socials">
                         <div class="flexItem6">
-                            <img src="../assets/Images/smFacebook.png">
+                            <a href="https://www.facebook.com/theopenwindow/">
+                                <img src="../assets/Images/smFacebook.png">
+                            </a>
                         </div>
                         <div class="flexItem6">
+                            <a href="https://www.instagram.com/openwindowinstitute/?hl=en">
                             <img src="../assets/Images/smInstagram.png">
+                        </a>
                         </div>
                         <div class="flexItem6">
+                            <a href="https://www.tiktok.com/@open_window_">
                             <img src="../assets/Images/smTicktock.png">
+                        </a>
                         </div>
                         <div class="flexItem6">
+                            <a href="https://x.com/open_window_?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
                             <img src="../assets/Images/smX.png">
+                        </a>
                         </div>
                 </div>
 
@@ -101,14 +110,14 @@
                     <div class="flexRight">
                         <div class="formContainer">
                         
-                            <form id="contact">
+                            <form id="contact" name="myForm">
                             
                                 <p>SEND US A MESSAGE</p>
             
                                 <br>
                                 <label for="Abc">Your Name</label>
                                     <fieldset>
-                                        <input placeholder="Abc" type="text" tabindex="1" required>
+                                        <input placeholder="Abc" name="name" type="text" tabindex="1" required>
                                     </fieldset>
                                 <label for="Abc@def.com">Email address</label>
                                     <fieldset>
@@ -123,7 +132,7 @@
                                         <textarea placeholder="Hi! i'd like to ask about" tabindex="4" required></textarea>
                                     </fieldset>
                                     <fieldset>
-                                        <button name="Submit" type="submit" id="submitContactForm" onclick="myFunction()" value="Show Name">Submit</button>
+                                        <button name="Submit" type="submit" id="submitContactForm" value="Show Name">Submit</button>
                                     </fieldset>
                             </form>
                         </div>
@@ -141,21 +150,25 @@
                 <div class="item1">
                     <img src="../assets/Images/logo.png">
                     <br>
-                    <p class="graph">Offering unforgettable trips to<br> explore planets in our solar<br> system.</p>
+                    <p class="slogan">Offering unforgettable trips to<br> explore planets in our solar<br> system.</p>
                 </div>
                 <div class="item2">
                     <p class="footergraph">Company</p> <br>
-                        <p class="graph">
-                         <a href="../index.html">   Home </a>
-                        </p>
-                            <br>
-                        <p class="graph">
-                          <a href="../pages/flights.html">  Flights </a>
-                        </p>
-                            <br>
-                        <p class="graph">
-                          <a href="../pages/contact.html"> Contact Us</a> 
-                        </p>
+                    <p class="graph">
+                        <a href="../index.html">  Home </a> 
+                       </p>
+                       <br>
+                       <p class="graph">
+                           <a href="../pages/about.html">  About Us </a> 
+                          </p>
+                          <br>
+                          <p class="graph">
+                            <a href="pages/contact.html"> Contact Us</a> 
+                          </p>
+                          <br>
+                       <p class="graph">
+                        <a href="../pages/flights.html">  Flights </a> 
+                       </p>
                 </div>
                 <div class="item3">
                     <p class="footergraph">Social Media Links</p>
@@ -184,6 +197,7 @@
                     </div>
                 </div>
             </div>
+            <br>
                 <div class="footerHr">
                     <hr>
                 </div>

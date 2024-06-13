@@ -122,21 +122,6 @@ p{
     /* padding-top: 5px; */
   }
 
-  /* .topNav input[type=text] {
-    float: right;
-    height: 40px;
-    width: 266px;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    font-family: 'Poppins', regular;
-    font-size: 17px;
-    font-weight: 500;
-    border-color: #ffffff;
-    background-color: #ffffff;
-    justify-content: center;
-    display: flex;
-  } */
   
   @media screen and (max-width: 600px) {
     .topNav a, .topNav input[type=text] {
@@ -208,7 +193,7 @@ p{
     align-items: center;
     position: relative;
     margin-top: 14px;
-    margin-right: 50px;
+    margin-right: 70px;
     height: 55px;
     width: 300px;
   }
@@ -218,8 +203,8 @@ p{
     height: 25px;
     align-items: center;
     justify-content: center;
-    padding-bottom: 20px;
-    padding-left: -50px;
+    padding-bottom: 2vh;
+    padding-left: -6vh;
   }
   
   .searchIcon1 img{
@@ -236,8 +221,8 @@ p{
   }
   
   .indiIcon{
-    width: 26px;
-    height: 26px;
+    width: 2.2vh;
+    height: 2.2vh;
     background-color: red;
     border-radius: 100px;
     align-items: center;
@@ -245,14 +230,14 @@ p{
     text-align: center;
     display: flex;
     position: relative;
-    bottom: 26px;
+    bottom: 14px;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 500;
     color: #ffffff;
     box-shadow:
-    2.8px 2.5px 10px rgba(255, 61, 61, 0.15),
-    22px 20px 40px rgba(255, 61, 61, 0.15);
+    1.4px 1.2px 5px rgba(255, 61, 61, 0.15),
+    11px 10px 20px rgba(255, 61, 61, 0.15);
   }
 
   .backgroundImage{
@@ -295,10 +280,10 @@ p{
     padding-right: 5vh;
   }
 
-  .flexItem1{
+  /* .flexItem1{
     padding: 2vh;
     flex: 50%;
-  }
+  } */
 
   .flexItem1 img{
     flex: 30%;
@@ -367,7 +352,7 @@ p{
 }
 
 .flexItem3{
-  padding: 1vh;
+  padding: 4vh;
   flex: 30%;
 }
 
@@ -577,18 +562,34 @@ iframe{
   height: 48px;
 }
 
+footer{
+  margin: 0%;
+}
 
 .flex-container {
   display: flex;
   justify-content: space-between;
   height: 20vh;
-  /* gap: 8vh; */
-
+  padding-right: 10vh;
+  padding-left: 10vh;
+  flex-direction: row;
 }
 
 .item1 img{
   width: 266px;
   height: 48px;
+}
+
+.item1{
+  margin: 0;
+}
+
+.item2{
+  padding-left: 10vh;
+}
+
+.item3{
+  margin: 0;
 }
 
 .footergraph{
@@ -609,14 +610,35 @@ iframe{
   flex-direction: row;
 }
 
+hr{
+  width: 90%;
+}
+
 .footer{
   display: flex;
   justify-content: space-between;
+  padding-right: 4vh;
+  padding-left: 4vh;
+  margin: auto;
 }
 
-.footer2 p{
+.footer1{
   display: flex;
   flex-direction: row;
+  padding: 1vh;
+  margin: 0%;
+}
+
+.footer2{
+  display: flex;
+  flex-direction: row;
+  padding: 1vh;
+  margin: 0%;
+}
+
+.footerEx{
+  display: flex;
+  justify-content: space-between;
 }
 
 .footerT p{
@@ -639,8 +661,8 @@ iframe{
   flex: 30%;
   width: 553px;
   height: 736px;
-  padding-left: 110px;
-  padding-right: 40px;
+  padding-left: 10vh;
+  padding-right: 4vh;
 }
 
 .flexFlight1 p{
@@ -656,7 +678,14 @@ iframe{
   color: #000000;
 }
 
-.graphP{
+.graph p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fceff4;
+}
+
+.slogan p{
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -693,14 +722,14 @@ iframe{
   text-align: justify;
 }
 
-button{
+#bookButton{
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 400;
   margin-top: 25px;
 }
 
-button{
+#bookButton{
   cursor: pointer;
   width: 270px;
   height: 70px;
@@ -730,7 +759,7 @@ button{
 .buttony{
   display: flex;
   align-items: center;
-  margin-left: 580px;
+  margin-left: 65vh;
 }
 
 .bookB button{
@@ -746,10 +775,69 @@ button{
   border-radius: 12px;
 }
 
-.bookB{
-  margin-left: -83px;
-}
+/* .bookB{
+  margin-left: -1vh;
+} */
 
 .footerHr{
   padding-top: 25px;
+}
+
+
+.baskety{
+  background-color: #fceff400;
+  border: none;
+  margin: 0%;
+  width: auto;
+  height: auto;
+}
+
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+
+.graphBold{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #5b3d67;
+  font-weight: 600;
+  margin: 0;
+}
+
+.about{
+  display: flex;
+  flex-direction: row;
 }
